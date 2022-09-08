@@ -1,0 +1,52 @@
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup_inner {
+  border-radius: 10%;
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+}
+.manage {
+  display: flex;
+  gap: 116px;
+  top: 31%;
+  left: 24%;
+  position: relative;
+}
+.close {
+  margin-left: 91%;
+}
+.circle-img {
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+}
+.form-control-table {
+  border: 1px solid #dadada;
+  padding: 15px;
+  border-radius: 5px;
+  width: 50%;
+  display: block;
+  height: 50px;
+  box-sizing: border-box;
+  background: #fff;
+  margin-right: 0px;
+}
+.serach {
+  display: flex;
+  margin-left: 72%;
+}

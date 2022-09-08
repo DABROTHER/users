@@ -1,0 +1,133 @@
+.form-full-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f4f4f4;
+}
+
+.form-container {
+  max-width: 1200px;
+  background: #f5f5f5;
+  margin: 0px auto;
+  box-shadow: 0px 0px 10px rgb(0 0 0 / 10%);
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.common-form {
+  max-width: 450px;
+  width: 100%;
+  margin: 0px auto;
+}
+
+.form-img-container {
+  height: 780px;
+  width: 40%;
+}
+
+.form-img-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.form-inn-card {
+  width: 60%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: -100px; */
+  height: 700px;
+}
+
+.login-logo {
+  max-width: 200px;
+  margin: 0;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.login-logo img {
+  max-width: 100%;
+}
+
+.form-control {
+  border: 1px solid #dadada;
+  padding: 15px;
+  border-radius: 5px;
+  width: 100%;
+  display: block;
+  height: 50px;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.form-control:focus {
+  border-color: var(--primary-theme-color);
+}
+
+.form-head {
+  margin-bottom: 19px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-check-label .form-check-input:checked {
+  background-color: var(--secondary-theme-color);
+  border-color: var(--secondary-theme-color);
+}
+
+.form-check-label {
+  display: inline-flex;
+  align-items: center;
+}
+
+.form-check-label .form-check-input {
+  margin-right: 6px;
+  margin-top: 0px;
+}
+
+.main-btn {
+  border: none;
+  font-size: 15px;
+  padding: 15px 40px;
+  background: #04c45c;
+  font-weight: 600;
+  border-radius: 6px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background: #07e76e;
+}
+
+.form-inn-card .main-btn {
+  width: 100%;
+}
+
+.error {
+  color: red;
+  margin-top: 1px;
+}
+
+.normal-link {
+  text-decoration: none;
+}
