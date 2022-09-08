@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### `Live demo`
+
+http://sloppy-users.surge.sh/
+
 ### `clone project`
 
 https://github.com/DABROTHER/users.git
